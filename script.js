@@ -26,7 +26,7 @@ class Student extends Person {
 
 class Teacher extends Person {
 	teach(){
-		console.log(`${_name} is teaching`);
+		console.log(`${this.name} is teaching`);
 	}
 }
 
